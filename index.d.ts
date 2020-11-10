@@ -535,7 +535,6 @@ declare module '@launchtray/react-pdf-renderer' {
   const PDFViewer: typeof ReactPDF.PDFViewer;
   const BlobProvider: typeof ReactPDF.BlobProvider;
   const PDFDownloadLink: typeof ReactPDF.PDFDownloadLink;
-  const PDFVector: PDFKit.Mixins.PDFVector;
 
   export default ReactPDF;
   export {
@@ -556,6 +555,5 @@ declare module '@launchtray/react-pdf-renderer' {
     PDFViewer,
     BlobProvider,
     PDFDownloadLink,
-    PDFVector,
   };
 }
